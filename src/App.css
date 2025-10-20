@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.table {
+  display: grid;
+  grid-template-areas: 
+  "cell cell cell"
+  "cell cell cell"
+  "cell cell cell";
+  margin: 20px;
+}
+
+.cell {
+  border: 1px solid orange;
+  border-radius: 0;
+}
+
+.cell-O {
+  background-color: rgb(23, 50, 50);
+}
+
+.cell-X {
+  background-color: rgb(51, 16, 84)
+}
