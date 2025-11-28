@@ -13,10 +13,11 @@
   "cell cell cell";
   margin: 20px;
 }
-
 .cell {
   border: 1px solid orange;
   border-radius: 0;
+  color: white;
+   background-color: gray;
 }
 
 .cell-O {
